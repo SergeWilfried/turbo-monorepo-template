@@ -28,7 +28,22 @@
     "*": "prettier --ignore-unknown --write",
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   },
+  "dependencies": {
+    "@tanstack/react-query": "^4.24.6",
+    "@trpc/client": "^10.11.1",
+    "@trpc/server": "^10.11.1",
+    "@trpc/react-query": "^10.11.1",
+    "jotai": "^2.0.1",
+    "@prisma/client": "^4.10.1",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "superjson": "^1.12.2",
+    "zod": "^3.20.6"
+  },
   "devDependencies": {
+    "@manypkg/cli": "^0.20.0",
+    "prisma": "^4.10.1",
+    "@types/prettier": "^2.7.2",
     "@commitlint/cli": "17.6.7",
     "@commitlint/config-conventional": "17.6.7",
     "@playwright/test": "1.36.1",
